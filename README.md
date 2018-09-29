@@ -68,3 +68,19 @@ Copy
     docker kill $(docker ps -q)
     docker rm $(docker ps -aq)
     docker rmi $(docker images dev-* -q)
+    
+ #   Create a skeleton Business Network Archive with Yeoman    
+ https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
+
+Enter tutorial-network for the network name, and desired information for description, author name, and author email.
+Select Apache-2.0 as the license.
+Select org.example.mynetwork as the namespace.
+Select No when asked whether to generate an empty network or not.
+
+
+
+
+
+
+    
+    
