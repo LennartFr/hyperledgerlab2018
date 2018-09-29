@@ -72,14 +72,48 @@ Copy
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
+# Developer tutorial for creating a Hyperledger Composer solution
 
- #   Create a skeleton Business Network Archive with Yeoman    
- https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
+# Step One: Creating a business network structure
+https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
+
+##   Create a skeleton Business Network Archive with Yeoman    
 
 Enter tutorial-network for the network name, and desired information for description, author name, and author email.
+
 Select Apache-2.0 as the license.
+
 Select org.example.mynetwork as the namespace.
+
 Select No when asked whether to generate an empty network or not.
+
+# Step Two: Defining a business network
+
+## Open the org.example.mynetwork.cto model file.
+Replace the contents with the following:
+~~~~
+/**
+ * My commodity trading network
+ */
+namespace org.example.mynetwork
+asset Commodity identified by tradingSymbol {
+    o String tradingSymbol
+    o String description
+    o String mainExchange
+    o Double quantity
+    --> Trader owner
+}
+participant Trader identified by tradeId {
+    o String tradeId
+    o String firstName
+    o String lastName
+}
+transaction Trade {
+    --> Commodity commodity
+    --> Trader newOwner
+}
+
+~~~~
 
 
 
