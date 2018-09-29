@@ -47,3 +47,24 @@ Use the scripts you just downloaded and extracted to download a local Hyperledge
 export FABRIC_VERSION=hlfv12
 ./downloadFabric.sh
 
+## Controlling your dev environment
+## Starting and stopping Hyperledger Fabric
+
+    cd ~/fabric-dev-servers
+    export FABRIC_VERSION=hlfv12
+    ./startFabric.sh
+    ./createPeerAdminCard.sh
+
+
+##  Start the web app ("Playground")
+  To start the web app, run:
+  composer-playground
+  
+  
+  Appendix: destroy a previous setup
+If you've previously used an older version of Hyperledger Composer and are now setting up a new install, you may want to kill and remove all previous Docker containers, which you can do with these commands:
+
+Copy
+    docker kill $(docker ps -q)
+    docker rm $(docker ps -aq)
+    docker rmi $(docker images dev-* -q)
