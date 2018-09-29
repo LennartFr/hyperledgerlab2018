@@ -115,9 +115,102 @@ transaction Trade {
 
 ~~~~
 
+Save your changes to org.example.mynetwork.cto
 
+## Adding JavaScript transaction logic
 
+Open the logic.js script file.
 
+Replace the contents with the following:
+
+~~~~/**
+ * Track the trade of a commodity from one trader to another
+ * @param {org.example.mynetwork.Trade} trade - the trade to be processed
+ * @transaction
+ */
+async function tradeCommodity(trade) {
+    trade.commodity.owner = trade.newOwner;
+    let assetRegistry = await getAssetRegistry('org.example.mynetwork.Commodity');
+    await assetRegistry.update(trade.commodity);
+}
+
+~~~~
+
+Save your changes to logic.js.
+
+## Adding Access Control
+
+~~~~/**
+ * Access control rules for tutorial-network
+ */
+rule Default {
+    description: "Allow all participants access to all resources"
+    participant: "ANY"
+    operation: ALL
+    resource: "org.example.mynetwork.*"
+    action: ALLOW
+}
+
+rule SystemACL {
+  description:  "System ACL to permit all access"
+  participant: "ANY"
+  operation: ALL
+  resource: "org.hyperledger.composer.system.**"
+  action: ALLOW
+}
+
+~~~~
+
+## Save your changes to permissions.acl.
+
+## Step Three: Generate a business network archive
+
+Now that the business network has been defined, it must be packaged into a deployable business network archive (.bna) file.
+
+Using the command line, navigate to the tutorial-network directory.
+
+From the tutorial-network directory, run the following command:
+
+~~~~
+composer archive create -t dir -n .
+~~~~
+
+After the command has run, a business network archive file called tutorial-network@0.0.1.bna has been created in the tutorial-network directory
+
+## Step Four: Deploying the business network
+
+~~~~
+
+composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna
+~~~~
+
+~~~~
+composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+~~~~
+
+~~~~
+composer card import --file networkadmin.card
+~~~~
+
+~~~~
+composer network ping --card admin@tutorial-network
+~~~~
+
+## Step Five: Generating a REST server
+
+~~~~
+composer-rest-server
+
+~~~~
+Enter admin@tutorial-network as the card name.
+
+Select never use namespaces when asked whether to use namespaces in the generated API.
+
+Select No when asked whether to secure the generated API.
+
+Select Yes when asked whether to enable event publication.
+
+Select No when asked whether to enable TLS security.~~~~
 
 
     
