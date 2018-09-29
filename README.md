@@ -2,6 +2,10 @@
 
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
+## Before you begin
+Make sure you have installed the required pre-requisites, following the instructions in Installing pre-requisites.
+
+
 ## Step 1: Install the CLI tools
 
 Essential CLI tools:
