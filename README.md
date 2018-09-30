@@ -28,6 +28,8 @@ https://www.hyperledger.org/projects/composer
 <img src="https://hyperledger.github.io/composer/v0.19/assets/img/ComposerArchitecture.svg">
 
 
+<img src="https://hyperledger.github.io/composer/v0.19/assets/img/Composer-Diagram.svg">
+
 
 # hyperledgerlab2018
 
