@@ -24,13 +24,13 @@ https://www.hyperledger.org/projects/composer
 
 [Composer Playground](https://composer-playground.mybluemix.net/login)
 
-<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
-
 <img src="https://hyperledger.github.io/composer/v0.19/assets/img/ComposerArchitecture.svg">
 
 
 <img src="https://hyperledger.github.io/composer/v0.19/assets/img/Composer-Diagram.svg">
 
+
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # hyperledgerlab2018
 
