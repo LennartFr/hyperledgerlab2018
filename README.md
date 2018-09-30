@@ -1,3 +1,5 @@
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
+
 # Blockchain Usecases
 [Blockchain usecases from IBM](https://www.ibm.com/blockchain/use-cases/)
 
@@ -15,7 +17,6 @@ Hyperledger, an open source collaborative effort to advance cross-industry block
 is hosted by The Linux Foundation®. 
 
 Deployed in Docker images.
-
 
 <img src="https://farm1.staticflickr.com/968/27085403057_c8a2ccd0cc_z.jpg" width="640" height="202" alt="composer">
 
