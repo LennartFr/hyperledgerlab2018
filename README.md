@@ -115,7 +115,7 @@ Copy
 
 # Developer tutorial for creating a Hyperledger Composer solution
 
-# Step One: Creating a business network structure
+## Step One: Creating a business network structure
 https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
 
 ##   Create a skeleton Business Network Archive with Yeoman    
@@ -128,9 +128,9 @@ Select org.example.mynetwork as the namespace.
 
 Select No when asked whether to generate an empty network or not.
 
-# Step Two: Defining a business network
+## Step Two: Defining a business network
 
-## Open the org.example.mynetwork.cto model file.
+### Open the org.example.mynetwork.cto model file.
 Replace the contents with the following:
 ~~~~
 /**
@@ -158,7 +158,7 @@ transaction Trade {
 
 Save your changes to org.example.mynetwork.cto
 
-## Adding JavaScript transaction logic
+### Adding JavaScript transaction logic
 
 Open the logic.js script file.
 
@@ -179,7 +179,7 @@ async function tradeCommodity(trade) {
 
 Save your changes to logic.js.
 
-## Adding Access Control
+### Adding Access Control
 
 ~~~~/**
  * Access control rules for tutorial-network
@@ -202,7 +202,7 @@ rule SystemACL {
 
 ~~~~
 
-## Save your changes to permissions.acl.
+### Save your changes to permissions.acl.
 
 ## Step Three: Generate a business network archive
 
@@ -237,7 +237,7 @@ composer card import --file networkadmin.card
 composer network ping --card admin@tutorial-network
 ~~~~
 
-## Step Five: Generating a REST server
+### Step Five: Generating a REST server
 
 ~~~~
 composer-rest-server
