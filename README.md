@@ -302,3 +302,6 @@ Select Namespaces are not used
 The Angular generator will then create the scaffolding for the project and install all dependencies. 
 
 To run the application, navigate to your angular project directory and run npm start . This will fire up an Angular 4 application running against your REST API at http://localhost:4200 . 
+
+
+<img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-04%20at%2018.13.39.png">
