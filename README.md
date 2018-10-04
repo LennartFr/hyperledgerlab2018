@@ -38,7 +38,7 @@ https://www.hyperledger.org/projects/composer
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# hyperledgerlab2018
+# Hands-on Lab
 
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
