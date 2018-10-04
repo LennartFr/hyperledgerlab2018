@@ -49,6 +49,13 @@ https://hyperledger.github.io/composer/latest/installing/development-tools.html
 ## Before you begin, install ALL the required pre-requisites. 
 Make sure you have installed the required pre-requisites, following the instructions in Installing pre-requisites.
 
+https://hyperledger.github.io/composer/latest/installing/installing-prereqs.html#macos
+
+https://hyperledger.github.io/composer/latest/installing/installing-prereqs.html#ubuntu
+
+Please Note: enter the command Nvm use Node. Should result in Now using node v8.11.2 (npm v5.6.0)  or similar
+  
+
 ### Step 1: Install the CLI tools
 
 ~~~
