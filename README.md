@@ -267,7 +267,6 @@ composer network ping --card admin@tutorial-network
 ~~~~
 composer-rest-server
 
-~~~~
 Enter admin@tutorial-network as the card name.
 
 Select never use namespaces when asked whether to use namespaces in the generated API.
