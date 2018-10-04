@@ -10,6 +10,8 @@
 
 # Hyperledger Components
 
+<a href="https://www.hyperledger.org/">Hyperledger by Linux Foundation</a>
+
 <img src="https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png">
 <hr size="5" color="black">
 <p>
