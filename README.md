@@ -28,7 +28,6 @@ Deployed in Docker images.
 
 <img src="https://static.andigital.com/wp-content/uploads/2017/07/08102002/pasted-image-0.png">
 
-
 <img src="https://farm1.staticflickr.com/968/27085403057_c8a2ccd0cc_z.jpg" alt="composer">
 
 https://www.hyperledger.org/projects/composer
@@ -47,7 +46,7 @@ https://www.hyperledger.org/projects/composer
 
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
-## Before you begin
+## Before you begin, install ALL the required pre-requisites. 
 Make sure you have installed the required pre-requisites, following the instructions in Installing pre-requisites.
 
 ### Step 1: Install the CLI tools
@@ -58,22 +57,26 @@ npm install -g composer-cli@0.20   //Utility for running a REST Server on your m
 
 npm install -g composer-rest-server@0.20  // Useful utility for generating application assets:
 
-npm install -g generator-hyperledger-composer@0.20
+npm install -g generator-hyperledger-composer@0.20 //Useful utility for generating application assets:
 
 npm install -g yo  // Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
 ~~~~
 
 ### Step 2: Install Playground
 
+~~~~
 npm install -g composer-playground@0.20  
+~~~~
 
 ### Step 3: Set up your IDE
-
-### Step 4 Install Hyperledger Fabric
-
-In a directory of your choice (we will assume ~/fabric-dev-servers), get the .tar.gz file that contains the tools to install Hyperledger Fabric:
+~~~~
 
 ~~~~
+### Step 4 Install Hyperledger Fabric
+
+~~~~
+In a directory of your choice (we will assume ~/fabric-dev-servers), get the .tar.gz file that contains the tools to install Hyperledger Fabric:
+
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
 
 curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
