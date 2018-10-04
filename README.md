@@ -12,7 +12,8 @@
 
 <img src="https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png">
 <p>
-
+<hr size="5" color="green">
+<p>
 <img src="https://farm1.staticflickr.com/960/41055079635_d00c82c7dd_z.jpg" width="640" height="203" alt="fabric">
 
 https://www.hyperledger.org/projects/fabric
