@@ -40,7 +40,7 @@ https://www.hyperledger.org/projects/composer
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
-# Hands-on Lab
+# ===== Hands-on Lab =====
 
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
@@ -143,6 +143,7 @@ Select org.example.mynetwork as the namespace.
 
 ### Open the org.example.mynetwork.cto model file.
 Replace the contents with the following:
+
 ~~~~
 /**
  * My commodity trading network
@@ -175,7 +176,8 @@ Open the logic.js script file.
 
 Replace the contents with the following:
 
-~~~~/**
+~~~~
+/**
  * Track the trade of a commodity from one trader to another
  * @param {org.example.mynetwork.Trade} trade - the trade to be processed
  * @transaction
@@ -192,7 +194,9 @@ Save your changes to logic.js.
 
 ### Adding Access Control
 
-~~~~/**
+~~~~
+
+/**
  * Access control rules for tutorial-network
  */
 rule Default {
