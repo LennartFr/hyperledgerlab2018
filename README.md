@@ -78,40 +78,49 @@ Browser app for simple editing and testing Business Networks:
 
 In a directory of your choice (we will assume ~/fabric-dev-servers), get the .tar.gz file that contains the tools to install Hyperledger Fabric:
 
-## mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+~~~~
+mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
 
-## curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+
 tar -xvf fabric-dev-servers.tar.gz
 
 A zip is also available if you prefer: just replace the .tar.gz file with fabric-dev-servers.zip and the tar -xvf command with a unzip command in the preceding snippet.
 
 Use the scripts you just downloaded and extracted to download a local Hyperledger Fabric v1.2 runtime:
 
-## cd ~/fabric-dev-servers
+cd ~/fabric-dev-servers
+
 export FABRIC_VERSION=hlfv12
 ./downloadFabric.sh
+~~~~
 
 ## Controlling your dev environment
-## Starting and stopping Hyperledger Fabric
-
+### Starting and stopping Hyperledger Fabric
+~~~~
     cd ~/fabric-dev-servers
     export FABRIC_VERSION=hlfv12
     ./startFabric.sh
     ./createPeerAdminCard.sh
-
+~~~~
 
 ##  Start the web app ("Playground")
-  To start the web app, run:
+
+~~~~
+To start the web app, run:
   composer-playground
+~~~~  
   
-  
-  Appendix: destroy a previous setup
+##  Appendix: destroy a previous setup
 If you've previously used an older version of Hyperledger Composer and are now setting up a new install, you may want to kill and remove all previous Docker containers, which you can do with these commands:
+
+~~~~
 
 Copy
     docker kill $(docker ps -q)
     docker rm $(docker ps -aq)
     docker rmi $(docker images dev-* -q)
+]~~~~
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
@@ -122,13 +131,13 @@ https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
 
 ##   Create a skeleton Business Network Archive with Yeoman    
 
+~~~~
 Enter tutorial-network for the network name, and desired information for description, author name, and author email.
 
 Select Apache-2.0 as the license.
 
 Select org.example.mynetwork as the namespace.
-
-Select No when asked whether to generate an empty network or not.
+~~~~
 
 ## Step Two: Defining a business network
 
@@ -253,7 +262,9 @@ Select No when asked whether to secure the generated API.
 
 Select Yes when asked whether to enable event publication.
 
-Select No when asked whether to enable TLS security.~~~~
+Select No when asked whether to enable TLS security.
+
+~~~~
 
 
     
