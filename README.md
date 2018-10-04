@@ -26,6 +26,9 @@ is hosted by The Linux Foundation®.
 
 Deployed in Docker images.
 
+<img src="https://static.andigital.com/wp-content/uploads/2017/07/08102002/pasted-image-0.png">
+
+
 <img src="https://farm1.staticflickr.com/968/27085403057_c8a2ccd0cc_z.jpg" alt="composer">
 
 https://www.hyperledger.org/projects/composer
