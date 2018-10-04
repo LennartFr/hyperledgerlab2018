@@ -32,7 +32,7 @@ https://www.hyperledger.org/projects/composer
 
 [Composer Playground](https://composer-playground.mybluemix.net/login)
 
-<img src="https://hyperledger.github.io/composer/v0.19/assets/img/ComposerArchitecture.svg">
+<img src="https://hyperledger.github.io/composer/v0.19/assets/img/ComposerArchitecture.svg" height="640" width="203">
 
 
 <img src="https://hyperledger.github.io/composer/v0.19/assets/img/Composer-Diagram.svg">
