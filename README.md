@@ -145,7 +145,7 @@ Select Apache-2.0 as the license.
 Select org.example.mynetwork as the namespace.
 ~~~~
 
-## Step Two: Defining a business network
+## Step Two: Define a business network
 
 ### Open the org.example.mynetwork.cto model file.
 Replace the contents with the following:
