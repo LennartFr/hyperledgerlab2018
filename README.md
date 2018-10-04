@@ -138,6 +138,8 @@ https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
 ##   Create a skeleton Business Network Archive with Yeoman    
 
 ~~~~
+yo hyperledger-composer:businessnetwork
+
 Enter tutorial-network for the network name, and desired information for description, author name, and author email.
 
 Select Apache-2.0 as the license.
@@ -241,6 +243,8 @@ After the command has run, a business network archive file called tutorial-netwo
 
 ## Step Four: Deploying the business network
 
+https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
+
 ~~~~
 
 composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna
@@ -276,6 +280,24 @@ Select No when asked whether to enable TLS security.
 
 ~~~~
 
+### Step 6: Generating an Application
 
-    
+~~~~
+yo hyperledger-composer:angular
+
+Select Yes when asked to connect to running business network.
+
+Enter standard package.json questions (project name, description, author name, author email, license)
+
+Enter admin@tutorial-network for the business network card.
+
+Select Connect to an existing REST API
+
+Enter http://localhost for the REST server address.
+
+Enter 3000 for server port.
+
+Select Namespaces are not used
+
+~~~~    
     
