@@ -11,7 +11,6 @@
 # Hyperledger Components
 
 <img src="https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png">
-<br>
 <hr size="5" color="black">
 <p>
 <img src="https://farm1.staticflickr.com/960/41055079635_d00c82c7dd_z.jpg" width="640" height="203" alt="fabric">
