@@ -76,9 +76,9 @@ npm install -g composer-playground@0.20
 ~~~~
 
 ### Step 3: Set up your IDE
-~~~~
 
-~~~~
+https://hyperledger.github.io/composer/latest/installing/development-tools.html
+
 ### Step 4 Install Hyperledger Fabric
 
 ~~~~
@@ -125,7 +125,8 @@ Copy
     docker kill $(docker ps -q)
     docker rm $(docker ps -aq)
     docker rmi $(docker images dev-* -q)
-]~~~~
+]
+~~~~
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
