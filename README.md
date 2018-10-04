@@ -52,26 +52,20 @@ Make sure you have installed the required pre-requisites, following the instruct
 
 ### Step 1: Install the CLI tools
 
-Essential CLI tools:
+~~~
 
-#### npm install -g composer-cli@0.20
-Utility for running a REST Server on your machine to expose your business networks as RESTful APIs:
+npm install -g composer-cli@0.20   //Utility for running a REST Server on your machine to expose your business networks as                                        RESTful APIs:
 
-#### npm install -g composer-rest-server@0.20
-Useful utility for generating application assets:
+npm install -g composer-rest-server@0.20  // Useful utility for generating application assets:
 
-#### npm install -g generator-hyperledger-composer@0.20
+npm install -g generator-hyperledger-composer@0.20
 
-
-Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
-
-#### npm install -g yo
+npm install -g yo  // Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
+~~~~
 
 ### Step 2: Install Playground
 
-Browser app for simple editing and testing Business Networks:
-
-#### npm install -g composer-playground@0.20
+npm install -g composer-playground@0.20  
 
 ### Step 3: Set up your IDE
 
