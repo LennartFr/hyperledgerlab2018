@@ -318,3 +318,13 @@ To run the application, navigate to your angular project directory and run npm s
 <a href="https://vehicle-manufacture-uneradicative-insolence.mybluemix.net/tutorial">Vehicle Manufacture</a>
 
 <img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img2.png">
+
+<img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img3.png">
+
+<img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img4.png">
+
+<img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img5.png">
+
+<img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img6.png">
+
+<img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img7.png">
