@@ -69,6 +69,16 @@ npm install -g generator-hyperledger-composer@0.20 //Useful utility for generati
 npm install -g yo  // Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
 ~~~~
 
+### Alternative Setp 1 Mass install
+
+~~~
+
+npm install -g composer-cli@0.20
+npm install -g composer-rest-server@0.20
+npm install -g generator-hyperledger-composer@0.20
+npm install -g yo
+~~~~
+
 ### Step 2: Install Playground
 
 ~~~~
