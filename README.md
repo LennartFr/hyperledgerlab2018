@@ -130,12 +130,9 @@ To start the web app, run:
 If you've previously used an older version of Hyperledger Composer and are now setting up a new install, you may want to kill and remove all previous Docker containers, which you can do with these commands:
 
 ~~~~
-
-Copy
     docker kill $(docker ps -q)
     docker rm $(docker ps -aq)
     docker rmi $(docker images dev-* -q)
-]
 ~~~~
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
@@ -258,17 +255,11 @@ https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
 ~~~~
 
 composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna
-~~~~
+composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret 
 
-~~~~
-composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
-~~~~
-
-~~~~
+adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
 composer card import --file networkadmin.card
-~~~~
 
-~~~~
 composer network ping --card admin@tutorial-network
 ~~~~
 
