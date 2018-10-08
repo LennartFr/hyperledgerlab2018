@@ -81,19 +81,29 @@ https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
 ### Step 4 Install Hyperledger Fabric
 
-~~~~
 In a directory of your choice (we will assume ~/fabric-dev-servers), get the .tar.gz file that contains the tools to install Hyperledger Fabric:
+
+~~~~
+composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna
+
+composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+
+composer card import --file networkadmin.card
+
+composer network ping --card admin@tutorial-network
 
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
 
 curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
 
 tar -xvf fabric-dev-servers.tar.gz
+~~~~
 
 A zip is also available if you prefer: just replace the .tar.gz file with fabric-dev-servers.zip and the tar -xvf command with a unzip command in the preceding snippet.
 
 Use the scripts you just downloaded and extracted to download a local Hyperledger Fabric v1.2 runtime:
 
+~~~~
 cd ~/fabric-dev-servers
 
 export FABRIC_VERSION=hlfv12
