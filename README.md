@@ -26,6 +26,8 @@ is hosted by The Linux Foundation®.
 
 Deployed in Docker images.
 
+<a href="https://hyperledger-fabric.readthedocs.io/en/release-1.2/_images/AppConceptsOverview.png">
+
 <img src="https://static.andigital.com/wp-content/uploads/2017/07/08102002/pasted-image-0.png">
 
 <img src="https://farm1.staticflickr.com/968/27085403057_c8a2ccd0cc_z.jpg" alt="composer">
@@ -69,11 +71,10 @@ npm install -g generator-hyperledger-composer@0.20 //Useful utility for generati
 npm install -g yo  // Yeoman is a tool for generating applications, which utilises generator-hyperledger-composer:
 ~~~~
 
-### Alternative Setp 1 Mass install
+# Alternative mass install
 
-~~~
-
-npm install -g composer-cli@0.20
+~~~~
+npm install -g composer-cli@0.20 
 npm install -g composer-rest-server@0.20
 npm install -g generator-hyperledger-composer@0.20
 npm install -g yo
@@ -91,24 +92,16 @@ https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
 ### Step 4 Install Hyperledger Fabric
 
-In a directory of your choice (we will assume ~/fabric-dev-servers), get the .tar.gz file that contains the tools to install Hyperledger Fabric:
-
 ~~~~
-composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna
-
-composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
-
-composer card import --file networkadmin.card
-
-composer network ping --card admin@tutorial-network
+In a directory of your choice (we will assume ~/fabric-dev-servers), get the .tar.gz file that contains the tools to install Hyperledger Fabric:
 
 mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
 
 curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
 
 tar -xvf fabric-dev-servers.tar.gz
-~~~~
 
+~~~~
 A zip is also available if you prefer: just replace the .tar.gz file with fabric-dev-servers.zip and the tar -xvf command with a unzip command in the preceding snippet.
 
 Use the scripts you just downloaded and extracted to download a local Hyperledger Fabric v1.2 runtime:
@@ -140,9 +133,12 @@ To start the web app, run:
 If you've previously used an older version of Hyperledger Composer and are now setting up a new install, you may want to kill and remove all previous Docker containers, which you can do with these commands:
 
 ~~~~
+
+Copy
     docker kill $(docker ps -q)
     docker rm $(docker ps -aq)
     docker rmi $(docker images dev-* -q)
+]
 ~~~~
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
@@ -265,11 +261,17 @@ https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
 ~~~~
 
 composer network install --card PeerAdmin@hlfv1 --archiveFile tutorial-network@0.0.1.bna
-composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret 
+~~~~
 
-adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+~~~~
+composer network start --networkName tutorial-network --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+~~~~
+
+~~~~
 composer card import --file networkadmin.card
+~~~~
 
+~~~~
 composer network ping --card admin@tutorial-network
 ~~~~
 
