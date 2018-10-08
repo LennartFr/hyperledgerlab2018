@@ -315,6 +315,6 @@ To run the application, navigate to your angular project directory and run npm s
 
 <img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-08%20at%2009.34.54.png">
 
-
-
 <a href="https://vehicle-manufacture-uneradicative-insolence.mybluemix.net/tutorial">Vehicle Manufacture</a>
+
+<img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img2.png">
