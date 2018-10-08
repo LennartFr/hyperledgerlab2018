@@ -317,4 +317,4 @@ To run the application, navigate to your angular project directory and run npm s
 
 
 
-<a href='https://vehicle-manufacture-uneradicative-insolence.mybluemix.net/tutorial">Vehicle Manufacture</a>
+<a href="https://vehicle-manufacture-uneradicative-insolence.mybluemix.net/tutorial">Vehicle Manufacture</a>
