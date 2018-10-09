@@ -1,5 +1,28 @@
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
+# How did it all start?
+ 
+October 2008. It all started with Satoshi Nakamoto and his paper [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) which addressed a key problem in electronic commerce:
+
+<img src="https://farm5.staticflickr.com/4505/24079519258_ab8a80f7ed_o.png" width="769" height="229" alt="Double Spending">
+<p>
+
+<i>A blockchain is a decentralized virtual ledger for recording transactions <b>without central authority </b> through a distributed cryptographic protocol. It is made up of three technologies 
+
+1. cryptographic algorithms, 
+1. a distributed protocol, 
+1. and replicated data 
+<p>
+which combined provide a trustworthy service to a group of nodes that do not fully trust each other. 
+<p>
+</i>
+<p>
+Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
+
+
+
+
+
 # News Update
 
 <img src="https://www.hyperledger.org/wp-content/uploads/2018/10/EEA-Hyperledger-02-1.png"><p>
