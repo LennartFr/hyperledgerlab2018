@@ -336,3 +336,4 @@ To run the application, navigate to your angular project directory and run npm s
 
 <img src="http://34b70.http.dal05.cdn.softlayer.net/broker-static/v1-starter/img1.png">
 
+  
