@@ -77,7 +77,7 @@ https://www.hyperledger.org/projects/composer
 
 https://hyperledger.github.io/composer/latest/installing/development-tools.html
 
-<img src="hyperledgerlab2018/Screen Shot 2018-10-12 at 13.05.55.png">
+<img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-12%20at%2013.05.55.png">
 
 
 ## Before you begin, install ALL the required pre-requisites. 
