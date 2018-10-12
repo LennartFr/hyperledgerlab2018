@@ -22,9 +22,6 @@ which combined provide a trustworthy service to a group of nodes that do not ful
 Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
 
 
-
-
-
 # News Update
 
 <img src="https://www.hyperledger.org/wp-content/uploads/2018/10/EEA-Hyperledger-02-1.png"><p>
@@ -346,7 +343,7 @@ The Angular generator will then create the scaffolding for the project and insta
 To run the application, navigate to your angular project directory and run npm start . This will fire up an Angular 4 application running against your REST API at http://localhost:4200 . 
 
 
-<img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-12%20at%2010.53.59.png">
+<img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-12%20at%2011.10.33.png">
 
 <img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
