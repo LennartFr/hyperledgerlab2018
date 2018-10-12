@@ -32,10 +32,12 @@ Source: https://www.zurich.ibm.com/dccl/papers/cachin_dccl.pdf
 
 # <a href="https://www.hyperledger.org/resources/publications/blockchain-performance-metrics">Hyperledger Performance Metrics</a>
 
-<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
-
+<a href="https://cachin.com/cc/talks/20170106-blockchain-rwc.pdf">Cryptography and Protocols in
+Hyperledger Fabric/a>
 
 <a href="https://developer.ibm.com/code/technologies/blockchain/">IBM Blockchain Code Patterns</a>
+
+<img src="https://farm5.staticflickr.com/4503/37148677233_71edc5a37b_o.png" width="1041" height="53" alt="blueband">
 
 # Hyperledger Components
 
