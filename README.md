@@ -349,7 +349,9 @@ To run the application, navigate to your angular project directory and run npm s
 
 # Deploying to the IBM Cloud
 
-## Picing Plans
+<a href="https://console.bluemix.net/docs/services/blockchain/index.html">IBM Blockchain Platform</a>
+
+<a href="https://console.bluemix.net/docs/services/blockchain/develop.html#develop-the-network">Develop the Network</a>
 
 <img src="https://github.com/LennartFr/hyperledgerlab2018/blob/master/Screen%20Shot%202018-10-08%20at%2009.34.54.png">
 
