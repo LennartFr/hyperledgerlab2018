@@ -53,8 +53,7 @@ Hyperledger Fabric</a>
 
 https://www.hyperledger.org/projects/fabric
 
-[Hyperledger Fabric Documentation](https://hyperledger-fabric.readthedocs.io/en/release/)
-
+[Hyperledger Fabric Documentation](/https://hyperledger-fabric.readthedocs.io/en/release-1.3/)
 Hyperledger, an open source collaborative effort to advance cross-industry blockchain technologies, 
 is hosted by The Linux Foundation®. 
 
