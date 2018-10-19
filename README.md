@@ -182,7 +182,7 @@ Copy
 
 # Developer tutorial for creating a Hyperledger Composer solution
 
-## Step One: Creating a business network structure
+## Step 1: Creating a business network structure
 https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
 
 ##   Create a skeleton Business Network Archive with Yeoman    
@@ -197,7 +197,7 @@ Select Apache-2.0 as the license.
 Select org.example.mynetwork as the namespace.
 ~~~~
 
-## Step Two: Define a business network
+## Step 2: Define a business network
 
 ### Open the org.example.mynetwork.cto model file.
 Replace the contents with the following:
@@ -277,7 +277,7 @@ rule SystemACL {
 
 ### Save your changes to permissions.acl.
 
-## Step Three: Generate a business network archive
+## Step 3: Generate a business network archive
 
 Now that the business network has been defined, it must be packaged into a deployable business network archive (.bna) file.
 
@@ -291,7 +291,7 @@ composer archive create -t dir -n .
 
 After the command has run, a business network archive file called tutorial-network@0.0.1.bna has been created in the tutorial-network directory
 
-## Step Four: Deploying the business network
+## Step 4: Deploying the business network
 
 https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html
 
@@ -312,7 +312,7 @@ composer card import --file networkadmin.card
 composer network ping --card admin@tutorial-network
 ~~~~
 
-### Step Five: Generating a REST server
+### Step 5: Generating a REST server
 
 ~~~~
 composer-rest-server
